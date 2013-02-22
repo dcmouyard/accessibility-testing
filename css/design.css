@@ -1,0 +1,308 @@
+body {
+  /* background: #000 url(../img/f1bg.png) no-repeat 100% 100%; */
+  background: url(../img/f1-white.png) no-repeat 98% 98%, #000 url(../img/splat_darkgrey.png) no-repeat 100% 100%;
+  color: #fff;
+  font-weight: 300;
+  text-shadow: #000 2px 2px;
+}
+
+a {
+  color: rgb(248,102,70);
+  text-decoration: none;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: Oswald, Calibri, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: Consolas, 'Lucida Console', 'Courier New', monospace, sans-serif;
+  font-size: 90%;
+}
+
+pre {
+  font-size: 65%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th,
+legend,
+caption {
+  font-family: Oswald, AlternateGothicNo1D, LeagueGothicRegular, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: square;
+}
+
+.slide {
+  background-color: #eee;
+  border: 1px solid rgba(0,0,0,.5);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,.2);
+  color: #333;
+  display: block;
+  height: 700px;
+  padding: 32px;
+  width: 900px;
+}
+
+.reverse,
+.reverse cite {
+  color: #000;
+}
+
+.reverse a,
+.reverse .highlight {
+  color: rgb(152,0,0);
+}
+
+.picture {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+h2 {
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+h2 > small {
+  line-height: 2.5;
+}
+
+.title {
+  font-size: 200%;
+  padding: 0 0 .75em;
+}
+
+.headline {
+  text-align: center;
+}
+
+.headline-right {
+  text-align: right;
+}
+
+.highlight {
+  color: rgb(248,102,70);
+}
+
+ul.important {
+  font-size: 150%;
+}
+
+blockquote {
+  font-weight: 400;
+  position: relative;
+}
+
+blockquote:before {
+  color: rgb(248,102,70);
+  content: "\201C";
+  display: inline-block;
+  font-size: 300%;
+  line-height: 1;
+  position: absolute;
+    left: 0;
+    top: -22px;
+}
+
+blockquote > cite {
+  display: block;
+  font-style: normal;
+  font-weight: 300;
+  margin-top: .5em;
+  text-align: right;
+}
+
+cite > small {
+  display: block;
+}
+
+small > pre {
+  font-size: 90%;
+  line-height: 1.2;
+}
+
+pre + pre {
+  margin-top: 1.5em;
+}
+
+.details {
+  font-size: 75%;
+  line-height: 1.3;
+}
+
+.details code,
+li > .link  {
+  font-size: 75%;
+  line-height: 1;
+}
+
+li > .link  {
+  margin-bottom: .25em;
+}
+
+/** Slides ********************************************************************/
+.impress-on-final .step {
+  opacity: 1;
+}
+
+.impress-on-title .step,
+.impress-on-dcmouyard .step,
+.impress-on-test-results .step,
+.impress-on-test-results-data .step,
+.impress-on-severity .step,
+.impress-on-severity-impact .step,
+.impress-on-severity-high .step,
+.impress-on-severity-medium .step,
+.impress-on-severity-low .step,
+.impress-on-effort .step,
+.impress-on-effort-easy .step,
+.impress-on-effort-quick .step,
+.impress-on-effort-more .step,
+.impress-on-location .step,
+.impress-on-location-impact .step,
+.impress-on-location-traffic .step,
+.impress-on-volume .step,
+.impress-on-volume-sitewide .step,
+.impress-on-volume-code .step,
+.impress-on-types .step,
+.impress-on-automated .step,
+.impress-on-automated-automatically .step,
+.impress-on-automated-reliability .step,
+.impress-on-tools .step,
+.impress-on-tools-quality .step,
+.impress-on-tools-confuser .step,
+.impress-on-tools-list .step,
+.impress-on-tools-verify .step,
+.impress-on-questions .step,
+.impress-on-manual .step,
+.impress-on-manual-skill .step,
+.impress-on-manual-time .step,
+.impress-on-manual-list .step,
+.impress-on-use-case .step,
+.impress-on-use-case-test .step,
+.impress-on-use-case-level .step,
+.impress-on-use-case-accuracy .step,
+.impress-on-use-case-caution .step,
+.impress-on-use-case-code .step,
+.impress-on-usability .step,
+.impress-on-usability-people .step,
+.impress-on-usability-findings .step,
+.impress-on-when .step,
+.impress-on-when-late .step,
+.impress-on-when-expensive .step,
+.impress-on-when-risk .step,
+.impress-on-waterfall .step,
+.impress-on-waterfall-phases .step,
+.impress-on-agile .step,
+.impress-on-agile-ac .step,
+.impress-on-agile-dev .step,
+.impress-on-agile-qa .step,
+.impress-on-content .step,
+.impress-on-content-problems .step,
+.impress-on-content-training .step,
+.impress-on-content-publish .step,
+.impress-on-content-workflow .step,
+.impress-on-content-qa .step,
+.impress-on-iterative .step,
+.impress-on-iterative-goal .step,
+.impress-on-iterative-first .step,
+.impress-on-iterative-never .step,
+.impress-on-iterative-manual .step,
+.impress-on-iterative-end .step,
+.impress-on-final #questions {
+  opacity: 0;
+}
+
+.impress-on-test-results-data #test-results,
+.impress-on-severity-impact #severity,
+.impress-on-severity-high #severity,
+.impress-on-severity-medium #severity,
+.impress-on-severity-low #severity,
+.impress-on-effort-easy #effort,
+.impress-on-effort-quick #effort,
+.impress-on-effort-more #effort,
+.impress-on-location-impact #location,
+.impress-on-location-traffic #location,
+.impress-on-volume-sitewide #volume,
+.impress-on-volume-code #volume,
+.impress-on-types-automated #types,
+.impress-on-types-manual #types,
+.impress-on-types-use-case #types,
+.impress-on-types-usability #types,
+.impress-on-automated-automatically #automated,
+.impress-on-automated-reliability #automated,
+.impress-on-tools-quality #tools,
+.impress-on-tools-confuser #tools,
+.impress-on-tools-list #tools,
+.impress-on-tools-verify #tools,
+.impress-on-manual-skill #manual,
+.impress-on-manual-time #manual,
+.impress-on-manual-list #manual,
+.impress-on-use-case-test #use-case,
+.impress-on-use-case-level #use-case,
+.impress-on-use-case-accuracy #use-case,
+.impress-on-use-case-caution #use-case,
+.impress-on-use-case-code #use-case,
+.impress-on-usability-people #usability,
+.impress-on-usability-findings #usability,
+.impress-on-when-late #when,
+.impress-on-when-expensive #when,
+.impress-on-when-risk #when,
+.impress-on-waterfall-phases #waterfall,
+.impress-on-agile-ac #agile,
+.impress-on-agile-dev #agile,
+.impress-on-agile-qa #agile,
+.impress-on-content-problems #content,
+.impress-on-content-training #content,
+.impress-on-content-publish #content,
+.impress-on-content-workflow #content,
+.impress-on-content-qa #content,
+.impress-on-iterative-goal #iterative,
+.impress-on-iterative-first #iterative,
+.impress-on-iterative-manual #iterative,
+.impress-on-iterative-end #iterative {
+  opacity: 1;
+}
+
+#dcmouyard h3 {
+  font-weight: 300;
+}
+#dcmouyard .dan {
+  background: #ccc;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  float: left;
+  margin: .4em .5em 0 0;
+}
+#dcmouyard img {
+  display: block;
+}
+#dcmouyard p {
+  line-height: 2;
+}
+
+
+
+
+
+#questions .title {
+  padding-bottom: 0;
+}

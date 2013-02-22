@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+  <meta name="viewport" content="width=1024" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>Accessibility Testing</title>
+  <meta name="author" content="Dan Mouyard" />
+  <link href="http://fonts.googleapis.com/css?family=Oswald:700,400,300" rel="stylesheet">
+  <link href="css/base.css" rel="stylesheet" />
+  <link href="css/design.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+</head>
+<body class="impress-not-supported">
+<div class="fallback-message">
+  <p>Your browser <b>doesn&rsquo;t support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+  <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+  <article id="title" class="step" data-x="-800" data-y="-500" data-scale="3">
+    <h1 class="headline">Accessibility Testing</h1>
+  </article>
+
+  <article id="dcmouyard" class="step" data-x="-175" data-y="680" data-scale="3">
+    <h2>Dan Mouyard</h2>
+    <h3>Senior Interface Engineer</h3>
+    <div class="dan"><img src="img/avatar-150.png" alt=""></div>
+    <p><a href="mailto:dmouyard@forumone.com">dmouyard@forumone.com</a><br><a href="http://twitter.com/dcmouyard">@dcmouyard</a></p>
+  </article>
+
+  <article id="overview-results" class="step" data-x="2000" data-y="200" data-scale="2">
+    <h2>Test Results</h2>
+  </article>
+
+  <article id="overview-types" class="step" data-x="2000" data-y="400" data-scale="2">
+    <h2>Types of Testing</h2>
+  </article>
+
+  <article id="overview-when" class="step" data-x="2000" data-y="600" data-scale="2">
+    <h2>When to Test</h2>
+  </article>
+
+  <article id="test-results" class="step" data-x="2000" data-y="3000">
+    <h1>Test Results</h>
+  </article>
+
+  <article id="test-results-data" class="step" data-x="2000" data-y="3150">
+    <p>Testing should gather the <span class="highlight">data necessary</span> to<br><strong>understand, prioritize,</strong> and <strong>fix</strong> problems.</p>
+  </article>
+
+  <article id="test-results-understand" class="step" data-x="1200" data-y="3150" data-z="-2000">
+    <p>List <strong>specific</strong> issues, with information that is <br><span class="highlight">accurate</span>, <span class="highlight">descriptive</span>, and <span class="highlight">actionable</span>.</p>
+  </article>
+
+  <article id="test-results-equal" class="step" data-x="3200" data-y="3150" data-z="-2000">
+    <p class="headline"><strong>Not all accessibility issues are equal.</strong></p>
+  </article>
+
+  <article id="prioritize" class="step" data-x="5200" data-y="3150" data-z="-2000">
+    <h2>Prioritize Accessibility Issues</h2>
+    <ul>
+      <li>Severity</li>
+      <li>Effort</li>
+      <li>Location</li>
+      <li>Volume</li>
+      <li>Secondary Benefits</li>
+    </ul>
+  </article>
+
+  <article id="severity" class="step" data-x="7200" data-y="3100" data-z="-2000">
+    <h2>Severity on Users</h2>
+    <p>&nbsp;<br>&nbsp;</p>
+  </article>
+
+  <article id="severity-impact" class="step" data-x="7200" data-y="3100" data-z="-2000">
+    <h2>&nbsp;</h2>
+    <p>Give priority to fixes that have a <span class="highlight">high positive impact</span> to users.<br>&nbsp;</p>
+  </article>
+
+  <article id="severity-high" class="step" data-x="7200" data-y="3100" data-z="-2000">
+    <h2>&nbsp;</h2>
+    <p><strong>High:</strong> Users will be <span class="highlight">unable</span> to perform important tasks or understand important content.</p>
+  </article>
+
+  <article id="severity-medium" class="step" data-x="7200" data-y="3100" data-z="-2000">
+    <h2>&nbsp;</h2>
+    <p><strong>Medium:</strong> Users will be able to perform and understand, but with <span class="highlight">difficulty</span>.</p>
+  </article>
+
+  <article id="severity-low" class="step" data-x="7200" data-y="3100" data-z="-2000">
+    <h2>&nbsp;</h2>
+    <p><strong>Low:</strong> Users will be <span class="highlight">inconvenienced</span>, but still able to accomplish all tasks.</p>
+  </article>
+
+  <article id="effort" class="step" data-x="9200" data-y="3100" data-z="-2000">
+    <h2>Effort Required to Fix</h2>
+    <p>&nbsp;</p>
+  </article>
+
+  <article id="effort-easy" class="step" data-x="9200" data-y="3100" data-z="-2000">
+    <h2>&nbsp;</h2>
+    <p>Knock out <span class="highlight">easier</span> fixes before more difficult ones.</p>
+  </article>
+
+  <article id="effort-quick" class="step" data-x="9200" data-y="3100" data-z="-2000">
+    <h2>&nbsp;</h2>
+    <p>Gain quick improvements with <span class="highlight">minimal effort</span>.</p>
+  </article>
+
+  <article id="effort-more" class="step" data-x="9200" data-y="3100" data-z="-2000">
+    <h2>&nbsp;</h2>
+    <p>Get <span class="highlight">more accessible</span> in less time.</p>
+  </article>
+
+  <article id="location" class="step" data-x="11200" data-y="3100" data-z="-2000">
+    <h2>Location of Problems</h2>
+    <p>&nbsp;</p>
+  </article>
+
+  <article id="location-impact" class="step" data-x="11200" data-y="3100" data-z="-2000">
+    <h2>&nbsp;</h2>
+    <p>Accessibility issues that don&rsquo;t impact anyone <span class="highlight">aren&rsquo;t</span> issues.</p>
+  </article>
+
+  <article id="location-traffic" class="step" data-x="11200" data-y="3100" data-z="-2000">
+    <h2>&nbsp;</h2>
+    <p>Prioritize issues found on <span class="highlight">high traffic</span> pages.</p>
+  </article>
+
+  <article id="volume" class="step" data-x="13200" data-y="3100" data-z="-2000">
+    <h2>Volume of Repeated Issues</h2>
+    <p>Multiple issues can be caused by the <span class="highlight">same code</span>.</p>
+  </article>
+
+  <article id="secondary-benefits" class="step" data-x="15200" data-y="3100" data-z="-2000">
+    <h2>Secondary Benefits</h2>
+    <p>Some accesibility fixes improve usability for <span class="highlight">other users</a>.</p>
+  </article>
+
+  <article id="types" class="step" data-x="15200" data-y="1100" data-rotate="-90">
+    <h2 class="title">Types of Testing</h2>
+  </article>
+
+  <article id="types-automated" class="step" data-x="15300" data-y="1100" data-rotate="-90">
+    <h3>Automated Testing</h3>
+  </article>
+
+  <article id="types-manual" class="step" data-x="15400" data-y="1100" data-rotate="-90">
+    <h3>Manual Testing</h3>
+  </article>
+
+  <article id="types-use-case" class="step" data-x="15500" data-y="1100" data-rotate="-90">
+    <h3>Use Case Scenarios</h3>
+  </article>
+
+  <article id="types-usability" class="step" data-x="15600" data-y="1100" data-rotate="-90">
+    <h3>Usability Studies</h3>
+  </article>
+
+  <article id="automated" class="step" data-x="15200" data-y="-900" data-rotate="-90">
+    <h2>Automated Testing</h2>
+    <p>&nbsp;<br>&nbsp;</p>
+  </article>
+
+  <article id="automated-automatically" class="step" data-x="15200" data-y="-900" data-rotate="-90">
+    <h2>&nbsp;</h2>
+    <p>A large amount of accessibility errors<br>can be found <span class="highlight">automatically</span>.</p>
+  </article>
+
+  <article id="automated-reliability" class="step" data-x="15200" data-y="-900" data-rotate="-90">
+    <h2>&nbsp;</h2>
+    <p>You can <span class="highlight">reliably</span> catch approximately<br><strong>25<sup>%</sup></strong> of accessibility best practices.</p>
+  </article>
+
+  <article id="tools" class="step" data-x="17200" data-y="-900" data-rotate="-90">
+    <h2>Automated Tools</h2>
+    <p>&nbsp;</p>
+  </article>
+
+  <article id="tools-quality" class="step" data-x="17200" data-y="-900" data-rotate="-90">
+    <h2>&nbsp;</h2>
+    <p><span class="highlight">Quality</span> of automated testing tools can vary <strong>significantly</strong>.</p>
+  </article>
+
+  <article id="tools-confuser" class="step" data-x="17200" data-y="-900" data-rotate="-90">
+    <h2>&nbsp;</h2>
+    <p><strong><a href="http://mothereffingtoolconfuser.com/">mothereffingtoolconfuser.com</a></strong></p>
+  </article>
+
+  <article id="tools-list" class="step" data-x="17380" data-y="-900" data-rotate="-90">
+    <h2>&nbsp;</h2>
+    <ul>
+      <li>WAVE Toolbar <small>(Firefox)</small><div class="link"><a href="http://wave.webaim.org/toolbar">wave.webaim.org/toolbar</a></div></li>
+      <li>HTML_CodeSniffer <small>(Bookmarklet)</small><div class="link"><a href="http://squizlabs.github.com/HTML_CodeSniffer">squizlabs.github.com/HTML_CodeSniffer</a></div></li>
+      <li>Web Accessibility Toolbar <small>(IE &amp; Opera)</small><div class="link"><a href="http://www.paciellogroup.com/resources/wat/ie">www.paciellogroup.com/resources/wat/ie</a></div></li>
+      <li>Accessibility Developer Tools <small>(Chrome)</small></li>
+    </ul>
+  </article>
+
+  <article id="tools-verify" class="step" data-x="17240" data-y="-900" data-rotate="-90">
+    <h2>&nbsp;</h2>
+    <p>With <span class="highlight">manual verification</span>, you can catch another <br><strong>35<sup>%</sup></strong> of accessibility best practices.</p>
+  </article>
+
+  <article id="manual" class="step" data-x="17240" data-y="-2900" data-rotate="-90">
+    <h2>Manual Testing</h2>
+    <p>&nbsp;<br>&nbsp;</p>
+  </article>
+
+  <article id="manual-time" class="step" data-x="17240" data-y="-2900" data-rotate="-90">
+    <h2>&nbsp;</h2>
+    <p>Can be <strong>time consuming.</strong><br>Depends on <span class="highlight">number</span> and <span class="highlight">complexity</span> of features testing.</p>
+  </article>
+
+  <article id="manual-list" class="step" data-x="17365" data-y="-2900" data-rotate="-90">
+    <ul>
+      <li>Code Inspection</li>
+      <li>Keyboard</li>
+      <li>Screen Readers</li>
+      <li>Touch Interfaces</li>
+    </ul>
+  </article>
+
+  <article id="manual-skill" class="step" data-x="17240" data-y="-2900" data-rotate="-90">
+    <h2>&nbsp;</h2>
+    <p>It&rsquo;s <span class="highlight">possible</span> to find everything, but highly dependent on <br>the <strong>skill</strong> of the reviewer and the <strong>time</strong> alotted.</p>
+  </article>
+
+  <article id="use-case" class="step" data-x="17240" data-y="-4900" data-rotate="-90">
+    <h2>Use Case Scenarios</h2>
+    <p>&nbsp;<br>&nbsp;</p>
+  </article>
+
+  <article id="use-case-test" class="step" data-x="17240" data-y="-4900" data-rotate="-90">
+    <h2>&nbsp;</h2>
+    <p><strong>Use Case:</strong> A list of steps defining interactions<br>between a <span class="highlight">role</span> and the <span class="highlight">system</span>.</p>
+  </article>
+
+  <article id="use-case-level" class="step" data-x="17240" data-y="-4900" data-rotate="-90">
+    <h2>&nbsp;</h2>
+    <p>Can find a <strong>close representation</strong> of the<br>system&rsquo;s <span class="highlight">real</span> level of accessibility.</p>
+  </article>
+
+  <article id="use-case-accuracy" class="step" data-x="17240" data-y="-4900" data-rotate="-90">
+    <h2>&nbsp;</h2>
+    <p><span class="highlight">Accurate</span> in assessing how <strong>severe</strong> the problems are.<br>&nbsp;</p>
+  </article>
+
+  <article id="use-case-caution" class="step" data-x="17240" data-y="-4900" data-rotate="-90">
+    <h2>&nbsp;</h2>
+    <p><strong>Caution:</strong> Different <span class="highlight">types</span>, <span class="highlight">brands</span>, and <span class="highlight">versions</span> of<br>Assisstive Technology can behave differently.</p>
+  </article>
+
+  <article id="use-case-code" class="step" data-x="17240" data-y="-4900" data-rotate="-90">
+    <h2>&nbsp;</h2>
+    <p>Often misses the specific <span class="highlight">code flaws</span><br>that cause the system to fail.</p>
+  </article>
+
+  <article id="usability" class="step" data-x="17240" data-y="-6900" data-rotate="-90">
+    <h2>Usability Studies</h2>
+    <p>&nbsp;</p>
+  </article>
+
+  <article id="usability-people" class="step" data-x="17240" data-y="-6900" data-rotate="-90">
+    <h2>&nbsp;</h2>
+    <p>Use <strong>real people</strong> with disabilities.</p>
+  </article>
+
+  <article id="usability-findings" class="step" data-x="17240" data-y="-6900" data-rotate="-90">
+    <h2>&nbsp;</h2>
+    <p>Find out <strong>exactly</strong> how easy or hard a system is to use.</p>
+  </article>
+
+  <article id="when" class="step" data-x="15240" data-y="-6900" data-rotate="-180">
+    <h2 class="title">When to Test</h2>
+  </article>
+
+  <article id="when-late" class="step" data-x="15240" data-y="-7050" data-rotate="-180">
+    <p><span class="highlight">Most</span> accessibility testing occurs <strong>too late.</strong></p>
+  </article>
+
+  <article id="when-expensive" class="step" data-x="15240" data-y="-7050" data-rotate="-180">
+    <p><span class="highlight">Fixes</span> are more <strong>expensive.</strong></p>
+  </article>
+
+  <article id="when-risk" class="step" data-x="15240" data-y="-7050" data-rotate="-180">
+    <p><span class="highlight">More</span> legal <strong>risk.</strong></p>
+  </article>
+
+  <article id="incorporate" class="step" data-x="13240" data-y="-7050" data-rotate="-180">
+    <p class="headline"><strong>Incorporate accessibility testing into your workflow.</strong></p>
+  </article>
+
+  <article id="waterfall" class="step" data-x="11240" data-y="-7050" data-rotate="-180">
+    <h2>Waterfall</h2>
+    <p>&nbsp;<br>&nbsp;</p>
+  </article>
+
+  <article id="waterfall-phases" class="step" data-x="11240" data-y="-7050" data-rotate="-180">
+    <h2>&nbsp;</h2>
+    <p><span class="highlight">Incorporate</span> accessibility testing into<br><strong>each phase</strong> of the project.</p>
+  </article>
+
+  <article id="agile" class="step" data-x="9240" data-y="-7050" data-rotate="-180">
+    <h2>Agile</h2>
+    <p>&nbsp;<br>&nbsp;</p>
+  </article>
+
+  <article id="agile-ac" class="step" data-x="9240" data-y="-7050" data-rotate="-180">
+    <h2>&nbsp;</h2>
+    <p>Make <span class="highlight">accessibility</span> an <strong>acceptance criteria</strong><br>for each story.</p>
+  </article>
+
+  <article id="agile-dev" class="step" data-x="9240" data-y="-7050" data-rotate="-180">
+    <h2>&nbsp;</h2>
+    <p>Developers should run <strong>automated tests</strong> on their code<br>and check <span class="highlight">keyboard</span> functionality.</p>
+  </article>
+
+  <article id="agile-qa" class="step" data-x="9240" data-y="-7050" data-rotate="-180">
+    <h2>&nbsp;</h2>
+    <p>Include <span class="highlight">manual testing</span> in the QA process.<br>&nbsp;</p>
+  </article>
+
+  <article id="content" class="step" data-x="7240" data-y="-7050" data-rotate="-180">
+    <h2>Content</h2>
+    <p>&nbsp;<br>&nbsp;</p>
+  </article>
+
+  <article id="content-problems" class="step" data-x="7240" data-y="-7050" data-rotate="-180">
+    <h2>&nbsp;</h2>
+    <p>A <strong>significant</strong> volume of accessibility errors<br>are caused by <span class="highlight">content creators</span>.</p>
+  </article>
+
+  <article id="content-training" class="step" data-x="7240" data-y="-7050" data-rotate="-180">
+    <h2>&nbsp;</h2>
+    <p><strong>Train</strong> content creators in <span class="highlight">basic</span> accessibility best practices.<br>&nbsp;</p>
+  </article>
+
+  <article id="content-publish" class="step" data-x="7240" data-y="-7050" data-rotate="-180">
+    <h2>&nbsp;</h2>
+    <p>Test accessibility <strong>before</strong> publishing the content.<br>&nbsp;</p>
+  </article>
+
+  <article id="content-workflow" class="step" data-x="7240" data-y="-7050" data-rotate="-180">
+    <h2>&nbsp;</h2>
+    <p>Publishing workflow should include <span class="highlight">automated testing</span>,<br> using only <strong>pass/fail</strong> tests on just the <strong>content.</strong></p>
+  </article>
+
+  <article id="content-qa" class="step" data-x="7240" data-y="-7050" data-rotate="-180">
+    <h2>&nbsp;</h2>
+    <p>If possible, have an <span class="highlight">accessibility expert</span> review<br>the content <strong>after</strong> automated testing.</p>
+  </article>
+
+  <article id="iterative" class="step" data-x="5240" data-y="-7050" data-rotate="-180">
+    <h2>Iterative Approach</h2>
+    <p>&nbsp;<br>&nbsp;</p>
+  </article>
+
+  <article id="iterative-goal" class="step" data-x="5240" data-y="-7050" data-rotate="-180">
+    <h2>&nbsp;</h2>
+    <p><strong>Goal:</strong> Become compliant <span class="highlight">faster</span> and <span class="highlight">cheaper</span>.<br>&nbsp;</p>
+  </article>
+
+  <article id="iterative-first" class="step" data-x="5240" data-y="-7050" data-rotate="-180">
+    <h2>&nbsp;</h2>
+    <p>The first round of testing should <strong>only</strong> include<br>automated testing for <span class="highlight">pass/fail</span> items.</p>
+  </article>
+
+  <article id="iterative-never" class="step" data-x="5240" data-y="-7050" data-rotate="-180">
+    <blockquote>
+      You should never pay a human to find errors that can be found through automated testing.&rdquo;
+      <cite>&mdash; Karl Groves <small>Accessibility Guru</small></cite>
+    </blockquote>
+  </article>
+
+  <article id="iterative-manual" class="step" data-x="5240" data-y="-7050" data-rotate="-180">
+    <h2>&nbsp;</h2>
+    <p><strong>After</strong> initial problems are fixed, test manually to<br>uncover issues automated testing <span class="highlight">couldn&rsquo;t</span> find.</p>
+  </article>
+
+  <article id="iterative-end" class="step" data-x="5240" data-y="-7050" data-rotate="-180">
+    <h2>&nbsp;</h2>
+    <p>Save <span class="highlight">use case scenarios</span> and <span class="highlight">usability studies</span> for the end.<br>&nbsp;</p>
+  </article>
+
+  <article id="questions" class="step" data-x="0" data-y="0">
+    <h2 class="title">Thank You!</h2>
+    <p><strong>Any Questions?</strong></p>
+  </article>
+
+
+  <div id="final" class="step" data-x="0" data-y="0" data-scale="4">
+  </div>
+
+  <script src="impress.min.js"></script>
+  <script>impress().init();</script>
+</body>
+</html>
